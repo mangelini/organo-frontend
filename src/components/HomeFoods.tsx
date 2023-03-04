@@ -2,11 +2,11 @@ import Card from "./Card";
 import { useGetFoodQuery } from "../store/food/foodAPI";
 
 const HomeFoods = () => {
-  const { data: food1 } = useGetFoodQuery(8);
+  const { data: food1 } = useGetFoodQuery(3);
 
-  const { data: food2 } = useGetFoodQuery(12);
+  const { data: food2 } = useGetFoodQuery(7);
 
-  const { data: food3 } = useGetFoodQuery(14);
+  const { data: food3 } = useGetFoodQuery(9);
 
   return (
     <div className="">
